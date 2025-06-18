@@ -1,0 +1,14 @@
+# ------------------------------
+# Loch Leigh Station Crontab
+# ------------------------------
+# Runs every minute to trigger scheduled tasks based on config
+* * * * * /home/pi/lochleigh_env/bin/python3 /home/pi/loch_leigh_station/scripts/scheduler.py >> /home/pi/loch_leigh_station/data/logs/cron.log 2>&1
+
+# Daily upload to Google Drive (at 8:10 AM)
+10 8 * * * /home/pi/lochleigh_env/bin/python3 /home/pi/loch_leigh_station/scripts/upload.py >> /home/pi/loch_leigh_station/data/logs/upload.log 2>&1
+
+# Optional: reboot daily at 4:00 AM (for stability)
+0 4 * * * /sbin/shutdown -r now
+
+# Optional: sync system time daily via NTP (RTC fallback)
+30 3 * * * /usr/sbin/ntpdate -u pool.ntp.org >> /home/pi/loch_leigh_station/data/logs/ntp.log 2>&1

@@ -1,0 +1,47 @@
+{
+    "station_id": "loch_leigh_station",
+    "timezone": "America/New_York",
+
+    "sensors": {
+        "camera": false,
+        "audio": true,
+        "temp": true,
+        "ph": true,
+        "tds": true,
+        "distance": false
+    },
+    "station": {
+        "name": "Loch Leigh Station",
+        "coordinates": [-78.5842, 38.0615]
+    },
+    "schedule": {
+        "snapshot_times": ["07:00", "17:00"],
+        "audio_record_times": ["06:30", "17:30"],
+        "audio_duration_sec": 300,
+        "sensor_poll_interval_min": 60
+    },
+
+    "paths": {
+        "base": "/home/pi/loch_leigh_station",
+        "data": "/home/pi/loch_leigh_station/data",
+        "logs": "/home/pi/loch_leigh_station/data/logs",
+        "geojson": "/home/pi/loch_leigh_station/data/geojson",
+        "images": "/home/pi/loch_leigh_station/data/images",
+        "audio": "/home/pi/loch_leigh_station/data/audio",
+        "exports": "/home/pi/loch_leigh_station/exports/ready",
+        "credentials": "/home/pi/loch_leigh_station/credentials.json"
+    },
+
+    "upload": {
+        "enabled": true,
+        "method": "google_drive",
+        "google_drive": {
+            "folder_id": "19lIvMsIgLGpfftIQd3iBgkfCRsPMPT4o",
+            "targets": {
+                "geojson": "1-YJmb2ZMXTKCMnbu6E8CH-nteK0vS-x0",
+                "images": "1newZn2c6KPCiq3AYr-LrYPvSSBQso-ly",
+                "audio": "1DuReDUhV8poE0h25aihy9W1hcqir-J1h"
+            }
+        }
+    }
+}

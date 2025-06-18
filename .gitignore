@@ -1,0 +1,48 @@
+# Python virtual environment
+lochleigh_env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.log
+
+# Data output (keep empty structure via .gitkeep if needed)
+data/audio/
+data/images/
+data/geojson/
+data/logs/
+
+# Exported data
+exports/
+usb_mount/exports/
+media/
+
+# Config and secrets
+credentials.json
+*.pem
+*.key
+
+# OS / editor / IDE noise
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+.env
+*.bak
+*.tmp
+
+# Tests output (if later used with pytest)
+htmlcov/
+coverage.*
+.cache/
+nosetests.xml
+pytest_cache/
+
+# Ignore zip archives
+*.zip
+
+# Lock files (optional)
+poetry.lock
+Pipfile.lockcredentials.json
