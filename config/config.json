@@ -38,9 +38,9 @@
         "google_drive": {
             "folder_id": "foo",
             "targets": {
-                "geojson": "1-YJmb2ZMXTKCMnbu6E8CH-nteK0vS-x0",
-                "images": "1newZn2c6KPCiq3AYr-LrYPvSSBQso-ly",
-                "audio": "1DuReDUhV8poE0h25aihy9W1hcqir-J1h"
+                "geojson": "foo",
+                "images": "foo",
+                "audio": "foo"
             }
         }
     }
