@@ -52,6 +52,10 @@ Each sensor generates timestamped, GIS-compatible GeoJSON files, optionally uplo
 - Camera (PiCamera2) for lake timelapse
 - Power: initially wall plug, later solar + battery
 
+Here is a link to an Amazon list where we have added all of the necessary hardware:
+
+https://www.amazon.com/hz/wishlist/ls/15ZYG3EAGE26P?ref_=wl_share
+
 ---
 
 ## Software Overview
