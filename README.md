@@ -63,7 +63,7 @@ https://www.amazon.com/hz/wishlist/ls/15ZYG3EAGE26P?ref_=wl_share
 - Environment: venv in `lochleigh_env/`
 - Logging: YAML-based to `data/logs/`
 - Scheduler: single smart `scheduler.py` cron-driven
-- File Outputs: GeoJSON, WAV, JPG â€” one folder per day
+- File Outputs: GeoJSON, WAV, JPG - one folder per day
 - Upload: Google Drive via service account
 - Sneakernet: USB auto-export supported
 - Fully cron-compatible, runs headless
@@ -223,7 +223,7 @@ test_utils.py
 ---
 ## License
 
-This project is licensed under the Creative Commons Attribution–NonCommercial 4.0
+This project is licensed under the Creative Commons Attribution - NonCommercial 4.0
 International License (CC BY-NC 4.0).
 
 You are free to:
