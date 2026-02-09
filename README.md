@@ -221,3 +221,21 @@ test_utils.py
 - Logs will indicate skipped sensors if they are disabled in `config.json`
 
 ---
+## License
+
+This project is licensed under the Creative Commons Attribution–NonCommercial 4.0
+International License (CC BY-NC 4.0).
+
+You are free to:
+
+- Use and deploy this project for personal, educational, research, or community purposes
+- Modify and adapt the code and designs
+- Share and redistribute forks or derivatives
+
+Under the following terms:
+
+- Attribution - You must give appropriate credit to the Loch Leigh Station project
+- NonCommercial - You may not use this work for commercial purposes or in any
+  for-profit product or service without explicit written permission from the author
+
+For commercial licensing inquiries, please contact the project maintainer.
