@@ -143,7 +143,7 @@ All scheduling is handled by `scheduler.py` based on `config.json`.
 Additional scheduled jobs:
 
 - `upload.py`: triggered once daily to sync data to Google Drive (if enabled)
-- `auto_export.py`: copies daily data to USB if present â€” also cron-triggered
+- `auto_export.py`: copies daily data to USB if present - also cron-triggered
 
 ---
 
